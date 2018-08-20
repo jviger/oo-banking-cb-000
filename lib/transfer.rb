@@ -21,6 +21,10 @@ class Transfer
   
   def execute_transaction
     if self.valid?
+      receiver.deposit(amount)
+      sender.balance -= amount
+    else 
+      ""
       
     
   end
