@@ -30,6 +30,7 @@ class Transfer
         "Transaction rejected. Please check your account balance."
       end
       @attempts += 1
+    end
   end
       
   
