@@ -31,6 +31,7 @@ class Transfer
   end
       
   def reverse_transaction
+    if self.valid? && self.status = "complete"
     
   end
   
