@@ -29,7 +29,7 @@ class Transfer
       else 
         "Transaction rejected. Please check your account balance."
       end
-      @attempts += 1
+      self.attempts += 1
     end
   end
       
