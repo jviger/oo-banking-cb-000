@@ -2,7 +2,7 @@ class Transfer
   # your code here
   
   
-  def initialize(from,to,amount)
+  def initialize(sender,recipient,amount)
     
   end
   
